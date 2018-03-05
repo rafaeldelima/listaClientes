@@ -14,7 +14,7 @@ public class RetrofitConfig {
     public RetrofitConfig() {
         this.retrofit =
                 new Retrofit.Builder()
-                        .baseUrl("http://192.168.0.101:8083/")
+                        .baseUrl("https://listaclientesapi.herokuapp.com/")
                         .addConverterFactory(JacksonConverterFactory.create())
                         .build();
     }
