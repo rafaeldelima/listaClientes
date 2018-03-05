@@ -14,6 +14,7 @@ import br.com.listaclientes.constantes.ConstantesActivity;
 import br.com.listaclientes.listaclientes.ListaPesquisaActivity;
 import br.com.listaclientes.listaclientes.MainActivity;
 import br.com.listaclientes.listaclientes.NovoUsuarioActivity;
+import br.com.listaclientes.listaclientes.R;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -67,12 +68,14 @@ public class ClienteServiceUtil {
 
     public static void adicionarClientes(Cliente cliente) {
 
-        Call<Cliente> call = new RetrofitConfig().getClienteService().cadastrarCliente(cliente);
+        Call<Cliente> call =new RetrofitConfig().getClienteService().cadastrarCliente(cliente);
         try {
             clientes.add(call.execute().body());
         }catch (Exception e){
             e.printStackTrace();
         }
+
+
     }
 
     public static void atualizar(Cliente cliente) {

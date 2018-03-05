@@ -143,7 +143,7 @@ public class ListaActivity extends AppCompatActivity {
                 cliente.setTelefone(etTelefone.getText().toString());
                 cliente.setEndereco(etEndereco.getText().toString());
                 cliente.setObservacao(etObservacao.getText().toString());
-
+                cliente.setUsuarioId(idUsuarioLogado);
                 ClienteServiceUtil.adicionarClientes(cliente);
 
                 dialog.dismiss();
