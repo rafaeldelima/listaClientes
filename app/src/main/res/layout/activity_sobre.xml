@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/imagebackground"
+    tools:context="br.com.listaclientes.listaclientes.SobreActivity">
+
+
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margem_imagem_padrao"
+        android:layout_marginEnd="@dimen/margem_imagem_padrao"
+        android:layout_marginStart="@dimen/margem_imagem_padrao"
+        android:layout_marginTop="@dimen/margem_imagem_padrao"
+        android:background="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_below="@+id/splash"
+        android:id="@+id/tvDesenvolvedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvDesenvolvedor"/>
+
+    <TextView
+        android:layout_below="@+id/tvDesenvolvedor"
+        android:id="@+id/tvVersao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvVersao"/>
+
+
+</LinearLayout>

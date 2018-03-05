@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shapetextview">
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_nome"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText
+        android:layout_below="@+id/tvNome"
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_informe_nome"/>
+
+    <TextView
+        android:layout_below="@+id/etNome"
+        android:id="@+id/tvTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_telefone"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText
+        android:layout_below="@+id/tvTelefone"
+        android:id="@+id/etTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_informe_telefone"
+        />
+
+    <TextView
+        android:layout_below="@+id/etTelefone"
+        android:id="@+id/tvEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_endereco"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText
+        android:layout_below="@+id/tvEndereco"
+        android:id="@+id/etEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_informe_endereco"/>
+
+    <TextView
+        android:layout_below="@+id/tvEndereco"
+        android:id="@+id/tvObservacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_observacoes"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText
+        android:layout_below="@+id/tvObservacao"
+        android:id="@+id/etObservacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_below="@+id/etObservacao"
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botao_cadastrar"
+        android:background="@drawable/botoes"
+        android:textColor="@color/colorButton"
+        android:textSize="@dimen/botao_tamanho_texto"
+        android:layout_marginTop="@dimen/button_margin"/>
+
+    <Button
+        android:layout_below="@+id/btnCadastrar"
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botao_cancelar"
+        android:background="@drawable/botoes"
+        android:textColor="@color/colorButton"
+        android:textSize="@dimen/botao_tamanho_texto"
+        android:layout_marginTop="@dimen/button_margin"/>
+
+</LinearLayout>

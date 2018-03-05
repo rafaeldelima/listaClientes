@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagebackground" >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:tooltipText="Menu"
+        fab:menu_fab_size="mini"
+        fab:menu_icon="@drawable/vendedor_ico">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/btNovoCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_size="mini"
+            fab:fab_label="@string/botao_novo_cliente"
+            android:onClick="novoCliente" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/btPesquisar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_size="mini"
+            fab:fab_label="@string/botao_pesquisar"
+            android:onClick="pesquisar" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/btInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_size="mini"
+            fab:fab_label="@string/botao_inicio"
+            android:onClick="inicio" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_size="mini"/>
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

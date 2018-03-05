@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.listaclientes.listaclientes.NovoUsuarioActivity"
+    android:background="@drawable/shapetextview"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_login"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText
+        android:layout_below="@+id/tvLogin"
+        android:id="@+id/etLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_login"/>
+
+    <TextView
+        android:layout_below="@+id/etLogin"
+        android:id="@+id/tvSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_senha"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText
+        android:layout_below="@+id/tvSenha"
+        android:id="@+id/etSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_senha"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_below="@+id/etSenha"
+        android:id="@+id/etSenha2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_senha_confirmacao"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_below="@+id/etSenha"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cadastrar"
+        android:text="@string/botao_cadastrar"
+        android:background="@drawable/botoes"
+        android:textColor="@color/colorButton"
+        android:textSize="@dimen/botao_tamanho_texto"
+        android:layout_marginTop="@dimen/button_margin"
+        android:layout_marginBottom="@dimen/button_margin"/>
+
+</LinearLayout>

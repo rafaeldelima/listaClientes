@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="fill"
+    android:background="@drawable/imagebackground"
+    >
+
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_main_linear_margin_top"
+        android:background="@drawable/imagebackground"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnListar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_activity_main"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/botoes"
+            android:layout_marginTop="@dimen/button_margin"
+            android:onClick="listar"
+            android:text="@string/botao_listar_clientes"
+            android:textColor="@color/colorButton"
+            android:textSize="@dimen/botao_tamanho_texto" />
+
+        <Button
+            android:id="@+id/btnSobre"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_activity_main"
+            android:layout_below="@+id/btnDeslogar"
+            android:background="@drawable/botoes"
+            android:layout_marginTop="@dimen/button_margin"
+            android:onClick="sobre"
+            android:text="@string/botao_sobre"
+            android:textColor="@color/colorButton"
+            android:textSize="@dimen/botao_tamanho_texto" />
+
+        <Button
+            android:id="@+id/btnDeslogar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_activity_main"
+            android:layout_below="@+id/btnListar"
+            android:background="@drawable/botoes"
+            android:layout_marginTop="@dimen/button_margin"
+            android:onClick="deslogar"
+            android:text="@string/botao_sair"
+            android:textColor="@color/colorButton"
+            android:textSize="@dimen/botao_tamanho_texto" />
+
+    </LinearLayout>
+</LinearLayout>

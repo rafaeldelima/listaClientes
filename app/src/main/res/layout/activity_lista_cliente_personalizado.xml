@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/margem_div_lista"
+    android:layout_marginLeft="@dimen/margem_div_lista"
+    android:layout_marginRight="@dimen/margem_div_lista"
+    android:background="@drawable/shapetextview"
+    android:id="@+id/div_lista">
+
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="@dimen/tamanho_tv_nome_lista"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/tamanho_nome_lista"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextViewDestaque"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:id="@+id/txtTelefone"
+            android:layout_width="@dimen/layout_width_activity_lista_pergunta"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/tv_telefone"
+            android:textSize="@dimen/tamanho_texto_padrao_formulario"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTelefone"
+            android:layout_width="@dimen/layout_width_activity_lista_resposta"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/txtEndereco"
+            android:textSize="@dimen/tamanho_texto_padrao_formulario" />
+
+        <TextView
+            android:id="@+id/txtEndereco"
+            android:layout_width="@dimen/layout_width_activity_lista_pergunta"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtTelefone"
+            android:text="@string/tv_endereco"
+            android:textSize="@dimen/tamanho_texto_padrao_formulario"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtEndereco"
+            android:textSize="@dimen/tamanho_texto_padrao_formulario" />
+
+    </RelativeLayout>
+
+</LinearLayout>

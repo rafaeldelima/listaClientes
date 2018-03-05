@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lista Clientes</string>
+    <string name="txt_login">Login</string>
+    <string name="hint_login">Informe o login</string>
+    <string name="txt_senha">Senha</string>
+    <string name="hint_senha">Informe sua senha</string>
+    <string name="hint_senha_confirmacao">Confirme sua senha</string>
+    <string name="hint_informe_nome">Informe o nome do cliente</string>
+    <string name="hint_informe_telefone">Informe o telefone do cliente</string>
+    <string name="hint_informe_endereco">Informe o endereço do cliente</string>
+    <string name="botao_login">Conectar</string>
+    <string name="botao_cadastro">Cadastrar-se</string>
+    <string name="botao_cadastrar">Cadastrar</string>
+    <string name="botao_listar_clientes">Listar Clientes</string>
+    <string name="botao_sobre">Sobre</string>
+    <string name="botao_sair">Sair</string>
+    <string name="botao_salvar">Salvar</string>
+    <string name="botao_cancelar">Cancelar</string>
+    <string name="tooltip_menu">Menu</string>
+    <string name="botao_novo_cliente">Novo Cliente</string>
+    <string name="botao_pesquisar">Pesquisar</string>
+    <string name="botao_inicio">Inicio</string>
+    <string name="tv_nome">Nome</string>
+    <string name="tv_telefone">Telefone</string>
+    <string name="tv_endereco">Endereço</string>
+    <string name="tv_observacoes">Observações</string>
+    <string name="tvDesenvolvedor">Desenvolvedor: Rafael Alves de Lima</string>
+    <string name="tvVersao">Versão: 1.0.0</string>
+    <string name="title_activity_teste">TesteActivity</string>
+    <string name="check_manter_conectado">Manter conectado</string>
+    <string name="teste">teste</string>
+    <string name="usuario_ou_senha_invalidos">Usuário ou senha inválidos</string>
+    <string name="senha_incorreta">Senha incorreta</string>
+    <string name="cliente_atualizado_com_sucesso">Cliente atualizado com sucesso</string>
+    <string name="informe_um_nome_para_pesquisa">Informe um nome para pesquisa</string>
+    <string name="pesquisa_efetuada">Pesquisa efetuada</string>
+    <string name="cadastro_realizado_com_sucesso">Cadastro realizado com sucesso</string>
+    <string name="ja_existe_usuario">Já existe um usuário com este nome</string>
+    <string name="erro_ao_cadastrar_usuario">Erro ao cadastrar usuário</string>
+    <string name="senhas_diferentes">As senhas estão diferentes</string>
+    <string name="cliente_salvo_com_sucesso">Cliente salvo com sucesso</string>
+</resources>

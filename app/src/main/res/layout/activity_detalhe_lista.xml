@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shapetextview">
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextViewDestaque"
+        android:textSize="@dimen/tamanho_texto_padrao_formulario"/>
+
+    <TextView
+        android:layout_below="@+id/tvNome"
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/tamanho_texto_padrao_formulario"/>
+
+    <TextView
+        android:layout_below="@+id/etNome"
+        android:id="@+id/tvTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_telefone"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextViewDestaque"
+        android:textSize="@dimen/tamanho_texto_padrao_formulario"/>
+
+    <TextView
+        android:layout_below="@+id/tvTelefone"
+        android:id="@+id/etTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/tamanho_texto_padrao_formulario"/>
+
+    <TextView
+        android:layout_below="@+id/tvTelefone"
+        android:id="@+id/tvEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_endereco"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextViewDestaque"
+        android:textSize="@dimen/tamanho_texto_padrao_formulario"/>
+
+    <TextView
+        android:layout_below="@+id/tvEndereco"
+        android:id="@+id/etEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/tamanho_texto_padrao_formulario"/>
+
+    <TextView
+        android:layout_below="@+id/tvEndereco"
+        android:id="@+id/tvObservacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_observacoes"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextViewDestaque"
+        android:textSize="@dimen/tamanho_texto_padrao_formulario"/>
+
+    <TextView
+        android:layout_below="@+id/tvObservacao"
+        android:id="@+id/etObservacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/tamanho_texto_padrao_formulario"/>
+
+
+    <Button
+        android:id="@+id/btnExcluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Excluir"
+        android:background="@drawable/botoes"
+        android:textColor="@color/colorButton"
+        android:textSize="@dimen/botao_tamanho_texto"
+        android:layout_marginTop="@dimen/button_margin"/>
+
+    <Button
+        android:id="@+id/btnEditarCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar"
+        android:background="@drawable/botoes"
+        android:textColor="@color/colorButton"
+        android:textSize="@dimen/botao_tamanho_texto"
+        android:layout_marginTop="@dimen/button_margin"/>
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:background="@drawable/botoes"
+        android:textColor="@color/colorButton"
+        android:textSize="@dimen/botao_tamanho_texto"
+        android:layout_marginTop="@dimen/button_margin"
+        android:layout_marginBottom="@dimen/button_margin"/>
+
+</LinearLayout>

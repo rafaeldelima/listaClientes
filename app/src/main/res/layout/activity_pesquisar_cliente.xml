@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shapetextview">
+
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_nome"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText
+        android:layout_below="@+id/tvNome"
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_informe_nome"/>
+
+    <Button
+        android:layout_below="@+id/etNome"
+        android:id="@+id/btnPesquisar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botao_pesquisar"
+        android:background="@drawable/botoes"
+        android:textColor="@color/colorButton"
+        android:textSize="@dimen/botao_tamanho_texto"
+        android:layout_marginTop="@dimen/button_margin"/>
+
+    <Button
+        android:layout_below="@+id/btnCadastrar"
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botao_cancelar"
+        android:background="@drawable/botoes"
+        android:textColor="@color/colorButton"
+        android:textSize="@dimen/botao_tamanho_texto"
+        android:layout_marginTop="@dimen/button_margin"/>
+
+</LinearLayout>

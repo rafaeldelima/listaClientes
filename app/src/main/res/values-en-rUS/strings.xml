@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lista Clientes</string>
+    <string name="txt_login">Login</string>
+    <string name="hint_login">Report login</string>
+    <string name="txt_senha">Password</string>
+    <string name="hint_senha">Inform your password</string>
+    <string name="hint_senha_confirmacao">"Confirm your password "</string>
+    <string name="hint_informe_nome">Enter the name of the customer</string>
+    <string name="hint_informe_telefone">Enter the customer\'s phone number</string>
+    <string name="hint_informe_endereco">Enter the customer\'s address</string>
+    <string name="botao_login">Connect</string>
+    <string name="botao_cadastro">Register</string>
+    <string name="botao_cadastrar">Register</string>
+    <string name="botao_listar_clientes">List Customers</string>
+    <string name="botao_sobre">About</string>
+    <string name="botao_sair">Exit</string>
+    <string name="botao_salvar">Save</string>
+    <string name="botao_cancelar">Cancel</string>
+    <string name="tooltip_menu">Menu</string>
+    <string name="botao_novo_cliente">New customer</string>
+    <string name="botao_pesquisar">Search</string>
+    <string name="botao_inicio">Home</string>
+    <string name="tv_nome">Name</string>
+    <string name="tv_telefone">Telephone</string>
+    <string name="tv_endereco">Address</string>
+    <string name="tv_observacoes">Comments</string>
+    <string name="tvDesenvolvedor">Developer: Rafael Alves de Lima</string>
+    <string name="tvVersao">Version: 1.0.0</string>
+    <string name="title_activity_teste">TesteActivity</string>
+    <string name="check_manter_conectado">Keep Connected</string>
+    <string name="teste">teste</string>
+    <string name="usuario_ou_senha_invalidos">Username or password is invalid</string>
+    <string name="senha_incorreta">Wrong password</string>
+    <string name="cliente_atualizado_com_sucesso">Customer successfully updated</string>
+    <string name="informe_um_nome_para_pesquisa">Enter a name for search</string>
+    <string name="pesquisa_efetuada">Search done</string>
+    <string name="cadastro_realizado_com_sucesso">Successful registration</string>
+    <string name="ja_existe_usuario">A user with this name already exists</string>
+    <string name="erro_ao_cadastrar_usuario">Error registering user</string>
+    <string name="senhas_diferentes">Passwords are different</string>
+    <string name="cliente_salvo_com_sucesso">Customer saved successfully</string>
+</resources>
